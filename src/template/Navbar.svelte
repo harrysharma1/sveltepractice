@@ -1,3 +1,7 @@
+<script>
+    let github = "/github-mark.png";
+    let linkedin = "/linkedin-mark.png"
+</script>
 <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <span class="font-semibold text-xl tracking-tight"> <a href="/"> harrysharma1 </a></span>
@@ -14,8 +18,9 @@
           Contact
         </a>
       </div>
-      <div>
-        <a href="" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+      <div class="flex items-center justify-between flex-wrap space-x-5">
+        <a href="https://github.com/harrysharma1"><img src={github} alt="Github is harrysharma1" height="30px" width="30px" class="opacity-50 hover:opacity-100"></a>
+        <a href="https://www.linkedin.com/in/harry-sharma-567b21225/"><img src={linkedin} alt="Linked in is Harry Sharma" height="30px" width="30px" class="opacity-50 hover:opacity-100"></a>
       </div>
     </div>
 </nav>
