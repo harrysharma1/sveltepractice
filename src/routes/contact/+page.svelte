@@ -1,5 +1,5 @@
 <script>
-    import Navbar from "../../template/Navbar.svelte";
+    import Navbars from "../../template/Navbars.svelte";
 
     function handler() {
         // @ts-ignore
@@ -17,7 +17,7 @@
         window.open(emailto);
     }
 </script>
-<Navbar/>
+<Navbars/>
 <div class="h-screen flex flex-col items-center justify-center"> 
     <p class="text-teal-500 text-xl mb-3">Contact me</p> 
 

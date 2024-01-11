@@ -1,8 +1,8 @@
 <script>
-    import Navbar from "../../template/Navbar.svelte";
+    import Navbars from "../../template/Navbars.svelte";
     
 </script>
-<Navbar/>
+<Navbars/>
 <div class="flex justify-center content-center p-32">
-
+    
 </div>

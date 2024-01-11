@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "../../template/Navbar.svelte";
+    import Navbars from "../../template/Navbars.svelte";
 </script>
-<Navbar/>
+<Navbars/>
 
 <h1 class="text-5xl">About</h1>
