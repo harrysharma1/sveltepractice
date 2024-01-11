@@ -17,6 +17,7 @@
         <a href="/contact" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
           Contact
         </a>
+        <p class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white select-none">|</p>
         <a href="/experience" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
           Experience
         </a>
