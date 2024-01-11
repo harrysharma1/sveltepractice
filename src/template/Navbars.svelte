@@ -3,7 +3,7 @@
   import { GithubLogo } from 'radix-icons-svelte';
   import { LinkedinLogo } from 'radix-icons-svelte';
 </script>
-<nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+<nav class="flex items-center justify-between flex-wrap bg-teal-500 p-8">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <span class="font-semibold text-xl tracking-tight"> <a href="/"> harrysharma1 </a></span>
     </div>
