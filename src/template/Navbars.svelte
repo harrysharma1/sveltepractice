@@ -1,6 +1,7 @@
 <script>
-    let github = "/github-mark.png";
-    let linkedin = "/linkedin-mark.png"
+  import { ActionIcon } from '@svelteuidev/core';
+  import { GithubLogo } from 'radix-icons-svelte';
+  import { LinkedinLogo } from 'radix-icons-svelte';
 </script>
 <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
@@ -23,8 +24,8 @@
         </a>
       </div>
       <div class="flex items-center justify-between flex-wrap space-x-5">
-        <a href="https://github.com/harrysharma1"><img src={github} alt="Github is harrysharma1" height="30px" width="30px" class="opacity-50 hover:opacity-100"></a>
-        <a href="https://www.linkedin.com/in/harry-sharma-567b21225/"><img src={linkedin} alt="Linked in is Harry Sharma" height="30px" width="30px" class="opacity-50 hover:opacity-100"></a>
+        <a href="https://github.com/harrysharma1"><ActionIcon variant="hover" ><GithubLogo size={60} color={"#333"}/></ActionIcon></a>
+        <a href="https://www.linkedin.com/in/harry-sharma-567b21225/"><ActionIcon><LinkedinLogo size={60} color={"#0077b5"}/></ActionIcon></a>
       </div>
     </div>
 </nav>

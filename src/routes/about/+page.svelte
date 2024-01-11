@@ -15,7 +15,6 @@
                             <Text>This image would have changed your life</Text>
                         </svelte:fragment>
                     </Image>
-
                 </a>
                 <Stack align="strech" spacing="xs">
                     <Text color="dimmed" size="sm">
