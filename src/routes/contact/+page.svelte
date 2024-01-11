@@ -9,13 +9,11 @@
         
         if (email_subject.trim() === '' || email_body.trim() === '') {
             alert("Please enter subject and body before clicking send");
-            return; // Do not submit the form if either textarea is empty
+            return; 
         }
         
-        console.log(email_subject);
-        console.log(email_body);
         let emailto = "mailto:harrysharma1066@gmail.com?subject="+email_subject+"&body="+email_body;
-        console.log(emailto);
+
         window.open(emailto);
     }
 </script>
@@ -27,7 +25,7 @@
         <textarea id="email_subject" name="email_subject" aria-label="Enter subject" placeholder="Enter subject ..." class="text-sm text-gray-base w-full mr-3 py-5 px-4 h-[75px] border border-gray-200 rounded mb-2" style="resize: none;"></textarea>
         <textarea id="email_body" name="email_body" aria-label="Enter body" placeholder="Enter body ..." class="text-sm text-gray-base w-full mr-3 py-5 px-4 h-[250px] border border-gray-200 rounded mb-2" style="resize: none;"></textarea>
 
-        <button type="submit" class="bg-teal-500 hover:bg-teal-700 w-full mt-4 rounded mb-2 text-white">Send</button> 
+        <button type="submit" class="bg-teal-500 hover:bg-teal-700 w-full mt-4 rounded mb-2 text-teal-200 hover:text-white">Send</button> 
     </form> 
 </div>
 
