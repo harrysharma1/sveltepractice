@@ -7,7 +7,7 @@
       <span class="font-semibold text-xl tracking-tight"> <a href="/"> harrysharma1 </a></span>
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div class="text-sm lg:flex-grow">
+      <div class="text-sm lg:flex-grow gap-x-5">
         <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
           Home
         </a>
@@ -16,6 +16,9 @@
         </a>
         <a href="/contact" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
           Contact
+        </a>
+        <a href="/experience" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+          Experience
         </a>
       </div>
       <div class="flex items-center justify-between flex-wrap space-x-5">
